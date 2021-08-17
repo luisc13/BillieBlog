@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 1rem 1 10rem;
+    text-align: center;
+    background-color: #D6BCA3;
+    position: relative;
+    bottom: 1rem;
+}
+body{
+    background-color: #D9C5AD;
+    font-family: 'Shadows Into Light', cursive;
+}
+footer{
+    text-align: center;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    border-radius: 0.25rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 35rem;
+    height: 45rem;
+}
+#dsm{
+    background-color: #3D0B0B;
+}
+#wwa{
+    background-color: #292723;
+}
+#hte{
+    background-color: #1F1B13;
+}
+a{
+    font-size: 30px;
+}
